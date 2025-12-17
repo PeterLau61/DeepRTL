@@ -22,7 +22,7 @@ If you are also interested in **repository-level** RTL data (beyond module-level
 - Dataset introduction / access page:  
   https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
 
-In short: **DeepRTL** focuses on **module-level** fine-tuning data, while **DeepCircuitX** provides a more **repo-level** view—so the two datasets are complementary. :contentReference[oaicite:2]{index=2}
+In short: **DeepRTL** focuses on **module-level** fine-tuning data, while **DeepCircuitX** provides a **repo-level** view, so the two datasets are complementary.
 
 ## Coming soon
 
