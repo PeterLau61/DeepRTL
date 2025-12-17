@@ -13,7 +13,8 @@ It includes three JSON files:
 - **train_data_specification.json**: Verilog code paired with **detailed specifications**, including both **what it does** and a more **comprehensive explanation of how it works**.
 - **train_line_level_comment.json**: **Line-level** data consisting of single-line Verilog statements paired with their corresponding natural-language **inline comments** (filtered to keep comments strictly relevant to their specific lines).
 
-For more details on how these annotations are constructed, please refer to the DeepRTL paper.
+For more details on how these annotations are constructed, please refer to the [DeepRTL paper](https://arxiv.org/pdf/2502.15832).
+
 
 ## Related dataset: DeepCircuitX (repo-level, complementary)
 
