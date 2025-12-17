@@ -17,10 +17,10 @@ For more details on how these annotations are constructed, please refer to the D
 
 ## Related dataset: DeepCircuitX (repo-level, complementary)
 
-If you are also interested in **repository-level** RTL data (beyond module-level), please check out **DeepCircuitX**, a concurrent effort from our group. DeepCircuitX is organized across multiple granularities (e.g., repository/file/module/block levels) and is intended for training and evaluation at broader project scope. :contentReference[oaicite:0]{index=0}
+If you are also interested in **repository-level** RTL data (beyond module-level), please check out **DeepCircuitX**, a concurrent effort from our group. DeepCircuitX is organized across multiple granularities (*e.g.*, repository/file/module/block levels) and is intended for training and evaluation at broader project scope.
 
 - Dataset introduction / access page:  
-  https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset :contentReference[oaicite:1]{index=1}
+  https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
 
 In short: **DeepRTL** focuses on **module-level** fine-tuning data, while **DeepCircuitX** provides a more **repo-level** view—so the two datasets are complementary. :contentReference[oaicite:2]{index=2}
 
