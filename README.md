@@ -1,7 +1,7 @@
 # DeepRTL
 The official implementation of DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model (ICLR 2025).
 
-## Fine-tuning dataset (released)
+## Fine-tuning dataset
 We have uploaded the DeepRTL fine-tuning dataset to Hugging Face:
 https://huggingface.co/datasets/liuyi2000/deeprtl_finetuning_dataset
 
@@ -13,7 +13,7 @@ It includes three JSON files:
 
 For more details on how these annotations are constructed, please refer to the [DeepRTL paper](https://arxiv.org/pdf/2502.15832).
 
-## Understanding benchmark (released)
+## Understanding benchmark
 We have uploaded the DeepRTL **understanding benchmark** to this GitHub repository.
 
 ## Related dataset: DeepCircuitX (repo-level, complementary)
@@ -24,5 +24,29 @@ https://zeju.gitbook.io/lcm-team/deepcircuitx/introduction-of-our-dataset
 
 In short: DeepRTL focuses on module-level fine-tuning data, while DeepCircuitX provides a repo-level view, so the two datasets are complementary.
 
-## Coming soon
-Models and training/evaluation scripts will be uploaded soon.
+## Citation
+
+If you find our work useful, please consider citing:
+
+```bibtex
+@inproceedings{liudeeprtl,
+  title={DeepRTL: Bridging Verilog Understanding and Generation with a Unified Representation Model},
+  author={Liu, Yi and Xu, Changran and Zhou, Yunhao and Li, Zeju and Xu, Qiang},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  year={2025}
+}
+
+@inproceedings{liu2025deeprtl2,
+  title={DeepRTL2: A Versatile Model for RTL-Related Tasks},
+  author={Liu, Yi and Zhang, Hongji and Zhou, Yunhao and Shi, Zhengyuan and Xu, Changran and Xu, Qiang},
+  booktitle={Findings of the Association for Computational Linguistics: ACL 2025},
+  year={2025}
+}
+
+@inproceedings{li2025deepcircuitx,
+  title={Deepcircuitx: A comprehensive repository-level dataset for rtl code understanding, generation, and ppa analysis},
+  author={Li, Zeju and Xu, Changran and Shi, Zhengyuan and Peng, Zedong and Liu, Yi and Zhou, Yunhao and Zhou, Lingfeng and Ma, Chengyu and Zhong, Jianyuan and Wang, Xi and others},
+  booktitle={2025 IEEE LLM Aided Design Workshop (LAD)},
+  year={2025},
+  organization={IEEE}
+}
